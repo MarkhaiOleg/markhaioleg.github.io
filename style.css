@@ -73,10 +73,6 @@ z-index: 1;
     color: #595959;
 }
 
-.projects{
-margin-bottom: 50px;
-}
-
 .title{
 font-style: normal;
 font-weight: bold;
@@ -84,43 +80,6 @@ font-size: 22px;
 line-height: 27px;
 color: #000000;
 margin-bottom: 10px;
-}
-
-.projects-list{
-padding: 0;
-margin-left: 15px;
-}
-
-.projects-item{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    
-}
-
-.project,
-.project-link{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    text-decoration: none;
-    
-}
-
-.project-link{
-    margin-left: 10px;
-}
-
-.project-bracket{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
 }
 
 .work-position{
@@ -131,13 +90,6 @@ margin-left: 15px;
     color: #000000;
     margin-bottom: 10px;
     
-}
-
-.organization{
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FB6D3A;
 }
 
 .period{
@@ -171,24 +123,21 @@ line-height: 24px;
 color: #595959;
 }
 
-.education{
-position: relative;
-left: 350px;
-bottom: 250px;
-margin-top: 0;
-margin-bottom: 40px;
+.title-education{
+    color: #fff;
+    font: weight 700px;;
+    font-size: 30px;
+    line-height: 27px;
+
 }
 
 .organization{
     position: relative;
     left: -40px;
-    border-left: 2px solid #1c1a1a;
-    margin-right: 40px;
+    padding-left: 15px;
+    border-left: 2px solid #fff;
 }
 
-.courses{
-display: flex;
-}
 
 .university{
     margin-bottom: 10px;
@@ -215,12 +164,12 @@ margin-bottom: 15px;
     height: 1320px;
 }
 
-
-
 .contacts,
 .tech-skills,
-.soft-skills {
+.soft-skills,
+.education {
     margin-left: 40px;
+    margin-bottom: 50px;
 }
 
 .contacts{
@@ -253,8 +202,7 @@ margin-bottom: 15px;
     color: #565e6a;
 }
 
-.tech-skills-list,
-.soft-skills-list{
+.tech-skills-list{
     color: #fff;
     padding: 0px;
     margin-left: 20px;
@@ -279,7 +227,6 @@ height: 65px;
 }
 
 .icon {
-
 width: 50px;
 height: 50px;
 margin-top: 5px;
@@ -296,4 +243,34 @@ margin-right: 20px;
     font-size: 20px;
     line-height: 20px;
     color: #FB6D3A;
+}
+
+.projects{
+ display: flex;
+ justify-content: center;
+ margin-top: -300px;
+}
+
+.projects-title {
+    padding: 10px;
+font-size: 50px;
+color: #FB6D3A;
+border: 10px solid #1c1a1a;
+border-radius: 5px;
+}
+
+.projects-items{
+    display: grid;
+    grid-template-columns:  repeat(2,6rem);
+    grid-template-rows: repeat(2,6rem);
+    grid-gap: 2rem;
+    perspective: 600px;
+    margin-left: 200px;
+}
+
+.projects-item{
+color: #FB6D3A;
+border: 6px solid #1c1a1a;
+border-radius: 5px;
+color: #FB6D3A;
 }

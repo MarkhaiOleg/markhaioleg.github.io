@@ -1,186 +1,126 @@
 body{
+width: 1200px;
+padding: 0;
+margin: auto;
 font-size: 14px;
+background-color: #e3e3e3;
+font-family: 'Anton', sans-serif;
+font-family: 'Dongle', sans-serif;
 font-family: 'Montserrat', sans-serif;
-background-color:#E5E5E5;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
 }
 
-.main{
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    margin: 0 auto;
-    color:#E5E5E5;
-    height: 1360px;
+.container{
+ display: flex;
+ position: relative;
+ justify-content: center;
+ flex-direction: row;
+ margin-top: 40px;
 }
 
 .main-content{
-    padding-top: 105px;
-    color: #fff;
-    background-color: #fff;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    width: 70vw;
+    height: 1300px;
+    background-color:#fff; 
+    color:#1c1a1a;
 }
 
-.about{
-position: relative;
-width: 700px;
-height: 150px;
-left: 400px;
-bottom: 400px;
-margin-top: 0px;
-margin-bottom: 40px;
-background-color: #FB6D3A;
-z-index: 1;
-}
 .photo{
     position: relative;
-    top: -50px;
+    left: 7vw;
+    margin-top: 50px;
     width: 370px;
     height: 370px;
-    margin-left: 40px;
-    margin-bottom: 50px;
-    border-radius: 50%;
     border: 10px solid #1c1a1a;
-    z-index: 3;
+    border-radius: 50%;
+    z-index: 2;
 }
 
-.about-position{
-    padding-left: 180px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 17px;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.about-name{
-    padding-left: 180px;
-    padding-top: 20px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
-    color: #fff;
-    margin-bottom: 25px;
-}
-
-.about-description{
-    width: 400px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-}
-
-.title{
-font-style: normal;
-font-weight: bold;
-font-size: 22px;
-line-height: 27px;
-color: #000000;
-margin-bottom: 10px;
-}
-
-.work-position{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-    margin-bottom: 10px;
-    
-}
-
-.period{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8;
-    margin-bottom: 10px;
-}
-
-.line{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000;
-}
-
-.work-list{
-padding: 0;
-margin-left: 30px;
-}
-
-.work-list-item{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-color: #595959;
-}
-
-.title-education{
-    color: #fff;
-    font: weight 700px;;
-    font-size: 30px;
-    line-height: 27px;
-
-}
-
-.organization{
+.name{
     position: relative;
-    left: -40px;
-    padding-left: 15px;
-    border-left: 2px solid #fff;
-}
-
-
-.university{
-    margin-bottom: 10px;
-}
-
-.title{
-    font-size: 30px;
+    width: 71.7vh;
+    height: 13vh;
+    padding: 40px 0px 0px 115px;
+    left: 47.3vh;
+    top: -35vh;
+    background-color:#FB6D3A;
+    z-index: 1;
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
 }
 
 .speciality{
-margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
 }
 
-.my-works {
-    width: 400px;
-    height: 400px;
+.work{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0vh;
+}
+.projects-title{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    line-height: 1.5em;
+    margin: -10vh 5vh 6vh 5vh;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1c1a1a;
+    border-radius: 3px;
+}
+
+.work-item{
+    width: 270px;
+    height: 100px;
+    background-color: #1c1a1a;
+    margin: 30px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 3em;
+    border: 6px solid #FB6D3A;
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 15px;
+    
+    
 }
 
 .sidebar{
-    height: 1320px;
+    width: 31vw;
+    height: 1300px;;
+    color: #fff;
     background-color: #1c1a1a;
-    padding-top: 40px;
-    width: 400px;
-    height: 1320px;
+}
+
+.sidebar h3{
+    font-weight: 700;
 }
 
 .contacts,
 .tech-skills,
-.soft-skills,
 .education {
     margin-left: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
-.contacts{
-    margin-top: 350px;
-    margin-bottom: 50px;
+.contacts {
+    margin-top: 50vh;
 }
 
 .sidebar-title{
     color: #fff;
     font: weight 700px;;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 27px;
     margin-bottom: 10px;
 }
@@ -188,7 +128,7 @@ margin-bottom: 15px;
 .contact-type{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #fff;
     margin-right: 10px;
@@ -208,33 +148,12 @@ margin-bottom: 15px;
     margin-left: 20px;
 }
 
-.tech-skills-item{
-color:#FB6D3A;
-}
+
 
 .tech-skills-text{
     color: #fff;
     font-size: 18px;
     line-height: 24px;
-}
-.icons{
-margin-top: 70px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-background-color:#FB6D3A ;
-height: 65px;
-}
-
-.icon {
-width: 50px;
-height: 50px;
-margin-top: 5px;
-margin-right: 20px;
-}
-
-.main-content{
-    color: #000;
 }
 
 .academy{
@@ -245,32 +164,37 @@ margin-right: 20px;
     color: #FB6D3A;
 }
 
-.projects{
- display: flex;
- justify-content: center;
- margin-top: -300px;
+.title-education{
+    color: #fff;
+    font: weight 700px;;
+    font-size: 35px;
+    line-height: 27px;
+    margin-bottom: 10px;
 }
 
-.projects-title {
-    padding: 10px;
-font-size: 50px;
-color: #FB6D3A;
-border: 10px solid #1c1a1a;
-border-radius: 5px;
+.organization{
+    border-left: 2px solid #fff;
+    margin-left: -40px;
+    padding-left: 5px;
 }
 
-.projects-items{
-    display: grid;
-    grid-template-columns:  repeat(2,6rem);
-    grid-template-rows: repeat(2,6rem);
-    grid-gap: 2rem;
-    perspective: 600px;
-    margin-left: 200px;
-}
+.contact-icons{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#FB6D3A ;
+    height: 65px;
+    }
+    
+    .icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 20px;
+    }
 
-.projects-item{
-color: #FB6D3A;
-border: 6px solid #1c1a1a;
-border-radius: 5px;
-color: #FB6D3A;
-}
+    
+.checked {
+    color: #FB6D3A;
+  }

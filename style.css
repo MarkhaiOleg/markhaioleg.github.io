@@ -50,7 +50,6 @@ font-family: 'Rubik', sans-serif;
     z-index: 1;
     font-size: 20px;
     color: #fff;
-    font-style: italic;
 }
 
 .speciality{
@@ -195,7 +194,6 @@ font-family: 'Rubik', sans-serif;
     margin-right: 20px;
     }
 
-    
 .checked {
     color: #FB6D3A;
   }

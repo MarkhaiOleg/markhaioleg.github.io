@@ -30,7 +30,7 @@ font-family: 'Rubik', sans-serif;
 
 .photo{
     position: relative;
-    left: 7vw;
+    left: 10%;
     margin-top: 50px;
     width: 370px;
     height: 370px;
@@ -41,11 +41,11 @@ font-family: 'Rubik', sans-serif;
 
 .name{
     position: relative;
-    width: 84.8vh;
-    height: 13vh;
+    width: 83.8%;
+    height: 14vh;
     padding: 40px 0px 0px 115px;
-    left: 47.3vh;
-    top: -35vh;
+    left: 46.7%;
+    top: -34vh;
     background-color:#FB6D3A;
     z-index: 1;
     font-size: 20px;
